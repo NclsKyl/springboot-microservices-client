@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1"/>
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Hello welcome to Sample REST Microservices</h1>
+<label>Random text Generator: </label><form action="/gettext">
+<input type="submit" value="Submit">
+</form>
+Random generated text is: <label th:text="${message}"></label>
+<div>
+</div>
+</body>
+</html>
